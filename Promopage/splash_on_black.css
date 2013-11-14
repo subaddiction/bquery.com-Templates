@@ -1,0 +1,42 @@
+/*
+Put this code in your HTML:
+<link href='http://fonts.googleapis.com/css?family=Racing+Sans+One&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+Put images, text, HTML inside:
+
+<div class="box">
+</div>
+
+*/
+
+body
+{
+    background:#000000 url(http://bquery.com/media/mrk25/fulmini_bg.png) repeat center center;
+    color:#ffffff;
+    font-family: 'Racing Sans One', sans-serif;
+    }
+  
+ a, a:hover, a:visited
+ {
+     color:#ffffff;
+     text-shadow: 1px 1px 0 #AA0088;
+ }
+    
+img
+{
+    width:800px;
+    max-width:100%;
+    box-shadow:0px 8px 8px #000000,0 4em 256px #AAAAAA;
+}
+
+.box
+{
+    margin:1em auto;
+    font-weight:normal!important;
+}
+
+h1, h2, h3
+{
+    font-weight:normal!important;
+    text-shadow: 1px 1px 0 #AA0088, 2px 2px 0 #AA0088, 3px 3px 0 #AA0088;
+}
